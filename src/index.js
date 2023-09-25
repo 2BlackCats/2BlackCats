@@ -6,14 +6,19 @@ import Layout from "./Layout";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'reactjs-popup/dist/index.css';
-import "react-datepicker/dist/react-datepicker.css";
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route element={<Layout />}>
-        <Route path="*" />
+        <Route path="" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
