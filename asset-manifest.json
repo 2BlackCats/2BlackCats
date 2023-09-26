@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/2BlackCats/static/css/main.cb493da7.css",
+    "main.js": "/2BlackCats/static/js/main.185302d4.js",
+    "static/js/787.3009e4a0.chunk.js": "/2BlackCats/static/js/787.3009e4a0.chunk.js",
+    "index.html": "/2BlackCats/index.html",
+    "main.cb493da7.css.map": "/2BlackCats/static/css/main.cb493da7.css.map",
+    "main.185302d4.js.map": "/2BlackCats/static/js/main.185302d4.js.map",
+    "787.3009e4a0.chunk.js.map": "/2BlackCats/static/js/787.3009e4a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb493da7.css",
+    "static/js/main.185302d4.js"
+  ]
+}
