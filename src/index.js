@@ -13,12 +13,12 @@ import Contact from './Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/2BlackCats" element={<About/>}/>
-        <Route path="/2BlackCats/projects" element={<Projects/>}/>
-        <Route path="/2BlackCats/contact" element={<Contact/>}/>
+        <Route path="/" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
