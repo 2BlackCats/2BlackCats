@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/2blackcats.github.io/2BlackCats/static/css/main.cb493da7.css",
-    "main.js": "/2blackcats.github.io/2BlackCats/static/js/main.d9d377aa.js",
+    "main.js": "/2blackcats.github.io/2BlackCats/static/js/main.7e3fc98a.js",
     "static/js/787.3009e4a0.chunk.js": "/2blackcats.github.io/2BlackCats/static/js/787.3009e4a0.chunk.js",
     "index.html": "/2blackcats.github.io/2BlackCats/index.html",
     "main.cb493da7.css.map": "/2blackcats.github.io/2BlackCats/static/css/main.cb493da7.css.map",
-    "main.d9d377aa.js.map": "/2blackcats.github.io/2BlackCats/static/js/main.d9d377aa.js.map",
+    "main.7e3fc98a.js.map": "/2blackcats.github.io/2BlackCats/static/js/main.7e3fc98a.js.map",
     "787.3009e4a0.chunk.js.map": "/2blackcats.github.io/2BlackCats/static/js/787.3009e4a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb493da7.css",
-    "static/js/main.d9d377aa.js"
+    "static/js/main.7e3fc98a.js"
   ]
 }
