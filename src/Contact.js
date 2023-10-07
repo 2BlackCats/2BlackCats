@@ -1,5 +1,16 @@
-
+import { useState, useEffect } from "react";
 function Contact() {
+  const [data, setData] = useState([]);
+  useEffect (() => {
+    fetch("https://docs.google.com/document/d/1CAYRrgE_ClS73rfjB55yowJfgmydlxB5ANzGfbwC-QY/pub?embedded=true")
+      .then ((response) => {
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.error("Error", error);
+      })
+  }, []
+  )
     return(
     <div className="d-flex flex-column vh-100" style={{background: "linear-gradient(90deg,#00e1ff,#0014ff)"}}>
       <div className="m-auto">
